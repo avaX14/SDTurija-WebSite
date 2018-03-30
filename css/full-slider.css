@@ -1,0 +1,65 @@
+/*!
+ * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav  {
+  background-color: #33383b;
+  font-size: 150%;
+}
+
+/*
+footer{
+  background-color: #626D71;
+}*/
+
+.logo img {
+	max-width: 175px;
+	height: auto;
+}
+
+.carousel-caption p{
+  font-size: 150%;
+}
+
+.btn{
+  background: -moz-linear-gradient(top, rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.box{
+  width: 300px;
+  height: 300px;
+  margin: 10px 10px;
+  float: left;
+}
+.dropdown-menu{
+  background-color: #33383b;
+}
+
+.dropdown-menu li a{
+  text-decoration: none;
+  color: lightgray;
+  font-size: 120%;
+  padding: 10px;
+}
+
+.dropdown-menu li {
+  margin-bottom: 5%;
+}
+
+.dropdown-menu li a:hover{
+  color: white;
+}
