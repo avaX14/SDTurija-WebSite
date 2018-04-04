@@ -16,7 +16,9 @@
     <!-- Custom styles for this template -->
     <link href="css/full-slider.css" rel="stylesheet">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    
     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
 
   </head>
@@ -24,9 +26,9 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar bg-transparent navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
-        <div class="logo"><img src="rsz_logosd3.png" alt=""></div>
+        <div class="logo"><img src="logo.png" alt=""></div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,7 +45,7 @@
             <li class="nav-item dropdown">
               <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usluge<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Nameštaj</a></li>
+                <li><a href="namestaj.html">Nameštaj</a></li>
                 <li><a href="#">Kuhinje</a></li>
                 <li><a href="#">Stepeništa</a></li>
                 <li><a href="#">Vrata</a></li>
@@ -58,6 +60,8 @@
       </div>
     </nav>
 
+
+
     <header>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -67,28 +71,28 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
-          <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('pomeri.jpg')">
+   
+          <div class="carousel-item active" style="background-image: url('images/slider/pomeri.jpg')">
             <div class="carousel-caption d-none d-md-block">
               <h1>Nameštaj po meri</h1>
               <p>S&amp;D ima preko 20 godina iskustva u izradi svih vrsta nameštaja i elemenata za vaše kuće, stanove, kancelarije i poslovne prostore.</p>
             </div>
           </div>
-          <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('namestaj.jpg')">
+          
+          <div class="carousel-item" style="background-image: url('images/slider/namestaj.jpg')">
             <div class="carousel-caption d-none d-md-block">
               <h1>Nameštaj po meri</h1>
               <p>S&amp;D ima preko 20 godina iskustva u izradi svih vrsta nameštaja i elemenata za vaše kuće, stanove, kancelarije i poslovne prostore.</p>
             </div>
           </div>
-          <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('kuhinja2.jpg')">
+           
+          <div class="carousel-item" style="background-image: url('images/slider/kuhinja2.jpg')">
             <div class="carousel-caption d-none d-md-block">
               <h1>Nameštaj po meri</h1>
               <p>S&amp;D ima preko 20 godina iskustva u izradi svih vrsta nameštaja i elemenata za vaše kuće, stanove, kancelarije i poslovne prostore.</p>
             </div>
           </div>
-          <div class="carousel-item" style="background-image: url('office.jpg')">
+          <div class="carousel-item" style="background-image: url('images/slider/office.jpg')">
               <div class="carousel-caption d-none d-md-block">
                 <h1>Nameštaj po meri</h1>
                 <p>S&amp;D ima preko 20 godina iskustva u izradi svih vrsta nameštaja i elemenata za vaše kuće, stanove, kancelarije i poslovne prostore.</p>
@@ -105,6 +109,7 @@
         </a>
       </div>
     </header>
+   
 
     <!-- Page Content 
     <section class="py-5">
@@ -114,6 +119,18 @@
           file.</p>
       </div>
     </section>-->
+
+    <div class="content">
+        <div id="namestaj"><label>NAMESTAJ</label></div>
+        <div id="kuhinje"><label>KUHINJE</label></div>
+        <div id="stepenista"><label>STEPENISTA I PARKETI</label></div>
+        <div id="vrata"><label>VRATA</label></div>
+        <div id="dekori"><label>DEKORI</label></div>  
+        <div id="kontakt"><label>KONTAKT</label></div> 
+
+    </div>
+
+    
     <footer class="footer-distributed">
       
 			<div class="footer-center">
@@ -139,7 +156,7 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <script src="test.js"></script>
   </body>
 
 </html>

@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+
+*{
+    font-family: 'Questrial', sans-serif ;
+}
+
+body{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(400px, auto);
+    width: 90%;
+    grid-gap: 10px;
+    margin: 2%  auto;
+    grid-template-areas: 
+    "stepenista stepenista kuhinje kuhinje"
+    "stepenista stepenista vrata vrata"
+    "namestaj namestaj vrata vrata"
+    "dekori dekori kontakt kontakt"
+
+}
+
+@media only screen and (max-width: 600px) {
+    .content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(300px, auto);
+        width: 100%;
+        grid-gap: 10px;
+        margin: 2%  auto;
+        grid-template-areas: 
+        "stepenista"
+        "stepenista"
+        "namestaj"
+        "kuhinje"
+        "vrata"
+        "vrata"
+        "dekori"
+        "kontakt"
+    
+    }
+
+    .content label{
+        display: none;
+        font-size: 170%;
+        color: #ffffff !important;
+        text-align: center;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 50px;
+        cursor: pointer;
+        text-decoration: none;
+        text-shadow: 2px 2px 4px #000000;
+        font-weight: bold;
+    }
+}
+
+
+
+
+#onama{
+    grid-area: onama;
+    background-image: url('../images/about/rsz_o2.JPG');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#namestaj{
+    grid-area: namestaj;
+    background-image: url('../images/namestaj/namestaj2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+
+#kuhinje{
+    grid-area: kuhinje;
+    background-image: url('../images/kuhinje/kuhinja.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#stepenista{
+    grid-area: stepenista;
+    background-image: url('../images/stepenista/stepeniste.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#vrata{
+    grid-area: vrata;
+    background-image: url('../images/vrata/vrata.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#dekori{
+    grid-area: dekori;
+    background-image: url('../images/dekori/dekori.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#kontakt{
+    grid-area: kontakt;
+    background-image: url('../images/kontakt.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+.content>div{
+
+    -moz-box-shadow:    1px 1px 1px 1px #292c2f;
+    -webkit-box-shadow: 1px 1px 1px 1px #292c2f;
+    box-shadow:         1px 1px 1px 1px #292c2f;
+    border-radius: 1px;
+    filter: brightness(80%);
+    cursor: pointer;
+    transition: transform .2s;
+    
+}
+.content>div:hover{
+    filter: brightness(100%);
+    transform: scale(1.01);
+    
+}
+
+.content>div label{
+    display: none;
+    font-size: 370%;
+    color: #ffffff !important;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: bold;
+}
+
+.content>div:hover label, .content>div:focus label {
+    display: block;
+}
+
+.parallax2{
+    background-image: url('../images/namestaj/namestaj2.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 label{
+    font-size: 270%;
+    color: wheat !important;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 4px 4px 4px #000000;
+    font-weight: bold;
+}
+
+

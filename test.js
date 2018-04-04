@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#namestaj").click(function(){
-        $("#galerijaNamestaj").toggle();
+    $("#kuhinje").click(function(){
+        window.location.href='kuhinje.html';
     });
 });
