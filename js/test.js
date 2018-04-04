@@ -1,0 +1,17 @@
+$(document).ready(function(){
+    $("#kuhinje").click(function(){
+        window.location.href='kuhinje.html';
+    });
+    $("#namestaj").click(function(){
+        window.location.href='namestaj.html';
+    });
+    $("#stepenista").click(function(){
+        window.location.href='stepeniste.html';
+    });     
+    $("#vrata").click(function(){
+        window.location.href='vrata.html';
+    });
+    $("#dekori").click(function(){
+        window.location.href='dekori.html';
+    });     
+});

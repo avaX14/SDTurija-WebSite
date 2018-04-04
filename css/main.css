@@ -19,10 +19,10 @@ body{
     grid-gap: 10px;
     margin: 2%  auto;
     grid-template-areas: 
-    "stepenista stepenista kuhinje kuhinje"
+    "stepenista stepenista namestaj namestaj"
     "stepenista stepenista vrata vrata"
-    "namestaj namestaj vrata vrata"
-    "dekori dekori kontakt kontakt"
+    "kuhinje kuhinje vrata vrata"
+    "dekori dekori onama onama"
 
 }
 
@@ -42,7 +42,7 @@ body{
         "vrata"
         "vrata"
         "dekori"
-        "kontakt"
+        "onama"
     
     }
 
@@ -111,12 +111,6 @@ body{
     background-size: cover; 
 }
 
-#kontakt{
-    grid-area: kontakt;
-    background-image: url('../images/kontakt.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
 
 
 .content>div{

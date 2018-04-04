@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    background-color: lightgray;
 }
 
 #kuhinjePar{
@@ -12,8 +13,20 @@ body, html {
     background-image: url('../images/namestaj/namestaj2.jpg');
 }
 
+#stepenistePar{
+    background-image: url('../images/stepenista/stepeniste.jpg');
+}
+
+#vrataPar{
+    background-image: url('../images/vrata/vrata.jpg');
+}
+
+#dekoriPar{
+    background-image: url('../images/dekori/dekori.jpg');
+}
+
+
 .parallax{
-    
 
     /* Full height */
     height: 100%; 
@@ -41,4 +54,52 @@ body, html {
     text-decoration: none;
     text-shadow: 4px 4px 4px #000000;
     font-weight: bold;
+}
+
+.wrapper{
+    background-color: white;
+    width: 86%;
+    height: auto;
+    margin: 2% auto;
+    display: block;
+    overflow: auto;
+}
+
+#namestajGalerija{
+    margin-left: 3%;
+    padding: 10px;
+}
+
+#kuhinjeGalerija{
+    margin-left: 3%;
+    padding: 10px;
+}
+
+#stepenisteGalerija{
+    margin-left: 3%;
+    padding: 10px;
+}
+
+#vrataGalerija{
+    margin-left: 3%;
+    padding: 10px;
+}
+
+.box{
+    width: 400px;
+    height: 300px;
+    transition: transform .2s;
+    filter: brightness(80%);
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    border-radius: 3px;
+}
+
+.box:hover{
+    transform: scale(1.03);
+    filter: brightness(100%);
+
 }
