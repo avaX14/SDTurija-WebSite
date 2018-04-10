@@ -15,21 +15,21 @@
 }
 
 nav  {
-  background-color: #33383b;
+  background-color: rgb(51,56,59, 0.5);
   font-size: 150%;
 }
 
+
+
 .navbar-dark .navbar-nav .nav-link{
-  color: #33383b;
+  color: white;
   font-weight: bold;
   text-shadow: 8px 8px 8px 8px #292c2f;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{
-  background-color: #292c2f;
   font-weight: bold;
-  color: white;
-  text-shadow: 8px 8px 8px #292c2f;
+  color: #292c2f;
 }
 
 .navbar-toggler-icon{
@@ -63,14 +63,26 @@ footer{
   float: left;
 }
 .dropdown-menu{
-  background-color: #33383b;
+  background-color: rgb(51,56,59, 0.7);
+}
+
+.dropdown-menu {
+  width: 300px !important;
+  height: 190px !important;
+  border-radius: 0px;
+}
+
+.dropdown-menu li{
+  border-bottom: 1px solid white;
 }
 
 .dropdown-menu li a{
+  
   text-decoration: none;
-  color: lightgray;
-  font-size: 120%;
+  color: white;
+  font-size: 140%;
   padding: 10px;
+
 }
 
 .dropdown-menu li {
@@ -78,5 +90,24 @@ footer{
 }
 
 .dropdown-menu li a:hover{
-  color: white;
+  color: #292c2f;
+}
+
+.navbar.scrolled {
+  background-color: rgb(51,56,59, 0.7) !important;
+  transition: background-color 200ms linear;
+  color:white;
+}
+
+.active{
+  color:#292c2f;
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width:1078px) {
+  nav  {
+    background-color: rgb(51,56,59, 0.5);
+    font-size: 150%;
+  }
 }

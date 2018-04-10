@@ -1,8 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: lightgray;
+    background-color: rgb(211,211,211, 0.7) !important;
+    font-family: 'Questrial', sans-serif ;
 }
 
 #kuhinjePar{
@@ -23,6 +26,14 @@ body, html {
 
 #dekoriPar{
     background-image: url('../images/dekori/dekori.jpg');
+}
+
+#onamaPar{
+    background-image: url('../images/about/o2.jpg');
+}
+
+#onamaPar2{
+    background-image: url('../images/about/o3.jpg');
 }
 
 
@@ -56,50 +67,155 @@ body, html {
     font-weight: bold;
 }
 
+.parallax p{
+    font-size: 270%;
+    color: white !important;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+    position: absolute;
+    cursor: pointer;
+    text-decoration: none;
+    text-shadow: 4px 4px 4px #000000;
+    font-weight: bold;
+}
+
 .wrapper{
+    max-width:90%;
+    margin: 2%  auto;
     background-color: white;
-    width: 86%;
-    height: auto;
-    margin: 2% auto;
     display: block;
     overflow: auto;
+    height: auto;
 }
 
-#namestajGalerija{
-    margin-left: 3%;
-    padding: 10px;
-}
 
-#kuhinjeGalerija{
-    margin-left: 3%;
-    padding: 10px;
-}
-
-#stepenisteGalerija{
-    margin-left: 3%;
-    padding: 10px;
-}
-
-#vrataGalerija{
-    margin-left: 3%;
-    padding: 10px;
-}
-
-.box{
-    width: 400px;
-    height: 300px;
+.one-third{
+    width: 29%;
+    float: left;
+    height: 200px;
+    margin: 2%;
+    overflow: hidden;
     transition: transform .2s;
     filter: brightness(80%);
 }
 
-img{
-    width: 400px;
-    height: 300px;
+.wrapper img{
+    height: 200px;
+    display: block;
+    width: 100%;
     border-radius: 3px;
 }
 
-.box:hover{
+
+.one-third:hover{
     transform: scale(1.03);
     filter: brightness(100%);
 
 }
+
+@media screen and (max-width:1226px) {
+    .parallax label{
+        font-size: 200%;
+        color: white !important;
+        text-align: center;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 50px;
+        right: 0;
+        height: 50px;
+        cursor: pointer;
+        text-decoration: none;
+        text-shadow: 4px 4px 4px #000000;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .wrapper{
+        max-width: 98%;
+        padding: 2%;
+    }
+    
+    .one-third{
+        width: 48%;
+        margin: 1%;
+    }
+
+    .parallax label{
+        font-size: 170%;
+        color: white !important;
+        text-align: center;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 80px;
+        cursor: pointer;
+        text-decoration: none;
+        text-shadow: 4px 4px 4px #000000;
+        font-weight: bold;
+    }
+
+    .parallax p{
+        font-size: 200%;
+        color: white !important;
+        text-align: center;
+        margin: auto;
+        margin-top: 15%;
+        position: absolute;
+        cursor: pointer;
+        text-decoration: none;
+        text-shadow: 4px 4px 4px #000000;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .one-third{
+        width: 98%;
+        margin: 1%;
+    }
+    .parallax label{
+        font-size: 140%;
+        color: white !important;
+        text-align: center;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 20px;
+        right: 0;
+        height: 50px;
+        cursor: pointer;
+        text-decoration: none;
+        text-shadow: 4px 4px 4px #000000;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:340px) {
+
+    .parallax label{
+        font-size: 120%;
+        color: white !important;
+        text-align: center;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 100px;
+        cursor: pointer;
+        text-decoration: none;
+        text-shadow: 4px 4px 4px #000000;
+        font-weight: bold;
+    }
+}
+
